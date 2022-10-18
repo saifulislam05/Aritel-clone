@@ -1,0 +1,632 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700&display=swap");
+
+body {
+  font-family: "Nunito", sans-serif;
+  box-sizing: border-box;
+}
+
+/* colors */
+:root {
+  --primary-cl: #e40000;
+}
+
+/* Global css */
+img {
+  width: 100%;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  color: unset;
+  text-decoration: none;
+}
+
+.btn {
+  background: var(--primary-cl);
+  padding: 4px 10px;
+  color: #fff;
+}
+.top_bar {
+  background: #b1aeae;
+  padding: 2px 0;
+}
+
+.top_bar_wrapper ul {
+  font-size: 0.9em;
+  margin-bottom: 0;
+}
+
+.top_bar_wrapper ul li {
+  position: relative;
+}
+.top_bar_wrapper ul li:hover a {
+  font-weight: 600;
+  font-size: 1em;
+  color: #000;
+}
+.nav {
+  width: 100%;
+  justify-content: space-between;
+  font-size: 0.8em;
+  font-weight: 800;
+}
+
+.nav li {
+  cursor: pointer;
+}
+.connections {
+  display: flex;
+  justify-content: space-between;
+}
+.ct {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.ct span {
+  text-align: center;
+  font-size: 0.7em;
+}
+
+.swiper-pagination-bullets {
+  bottom: 0 !important;
+}
+
+.swiper-pagination-bullet {
+  background: var(--primary-cl);
+  width: 6%;
+  height: 4px;
+  border-radius: 1px !important;
+  -webkit-border-radius: 1px !important;
+  -moz-border-radius: 1px !important;
+  -ms-border-radius: 1px !important;
+  -o-border-radius: 1px !important;
+}
+
+.swiper-button-prev {
+  left: 10%;
+}
+.swiper-button-next {
+  right: 10%;
+}
+
+.sl_arrow {
+  color: var(--primary-cl);
+}
+
+/* ---------reacharge section Starts ------- */
+
+.recharge_bills {
+  background: linear-gradient(135deg, #b00, #8d0000);
+}
+
+.recharge_left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #fff;
+}
+.recharge_tab {
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+.recharge {
+  cursor: pointer;
+  border-radius: 5px;
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 4px 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: fit-content;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  transition: all 0.2s;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  -o-transition: all 0.2s;
+}
+.recharge:first-child {
+  background: #fff;
+  color: #000;
+}
+.recharge:hover {
+  background: #fff;
+  color: #000;
+}
+.recharge img {
+  width: 30px;
+}
+.recharge span {
+  font-weight: 500;
+  margin-left: 6px;
+  font-size: 0.8em;
+}
+
+.recharge_form {
+  padding: 4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  background: #fff;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+.recharge_form input {
+  width: 80%;
+  background: none;
+  border: none;
+  outline: none;
+}
+
+/* ---------reacharge section Ends------- */
+
+/* -------service section starts--------- */
+
+.experience_our_service {
+  background: #eeebeb;
+}
+
+.service_item {
+  margin: 10px 0;
+
+  display: flex;
+  align-items: stretch;
+}
+.service_item .inner_box {
+  width: 100%;
+  background: #fff;
+  cursor: pointer;
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* align-items: stretch; */
+  padding: 6px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+}
+.service_item .inner_box:hover {
+  transform: scale(1.05);
+  -webkit-transform: scale(1.05);
+  -moz-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  -o-transform: scale(1.05);
+}
+.service_item .inner_box img {
+  width: 25%;
+}
+
+.service_item .inner_box span {
+  font-size: 1.3em;
+}
+
+/* -------service section Ends--------- */
+
+.black_airtel {
+  background: #101010;
+  color: #fff;
+}
+
+.black_wrapper .left_side img {
+  margin-bottom: 4rem;
+  width: 30%;
+}
+.black_wrapper .left_side .free_trial {
+  color: #e0dcdc;
+  font-weight: 300;
+  font-size: 2.6em;
+}
+.black_wrapper .left_side .free_trial span {
+  font-weight: 800;
+}
+.black_wrapper .left_side p {
+  margin: 3rem 0;
+  font-weight: 300;
+  line-height: 1.5;
+  font-size: 1.5em;
+}
+.black_wrapper .left_side .inner_box {
+  height: 80%;
+}
+
+.airtel_black_btn {
+  margin-bottom: 20px;
+  font-size: 1.7em;
+  font-weight: 600;
+  background: radial-gradient(
+    87.5% 87.5% at 29.69% 6.25%,
+    #970000 0,
+    #400707 100%
+  );
+  padding: 15px 20px;
+  border: none;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+}
+.airtel_black_btn:hover {
+  color: inherit;
+}
+
+/* Postpaid section starts */
+
+.title_wrapper {
+  position: relative;
+}
+.title {
+  font-size: 2em;
+  font-weight: 700;
+}
+.title_border {
+  background: var(--primary-cl);
+  width: 50px;
+  height: 5px;
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+}
+
+.postpaid_wrapper .left_side h3 {
+  font-size: 3em;
+}
+
+.postpaid_wrapper .left_side h3 span {
+  color: var(--primary-cl);
+}
+
+.postpaid_wrapper .left_side .choose {
+  font-size: 1.3em;
+}
+.postpaid_wrapper .left_side .benefits,
+.best_selling {
+  margin: 15px 0;
+  font-weight: 600;
+  font-size: 1.6em;
+}
+
+.plans_wrapper .item {
+  display: flex;
+  align-items: stretch;
+}
+.plans_wrapper .inner_box {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  box-shadow: 1px 1px 24px 1px #ddd;
+  padding: 15px;
+}
+.plans_wrapper .inner_box img {
+  width: 40%;
+}
+ .inner_box p {
+
+  cursor: pointer;
+  font-size: 1.2em;
+  font-weight: 500;
+}
+
+.postpaid_wrapper .right_side {
+  padding-bottom: 0;
+  display: flex;
+  justify-content: flex-end;
+}
+.postpaid_wrapper .right_side img {
+  width: 70%;
+}
+
+/* Postpaid section Ends */
+
+/* port to aritel section starts  */
+
+.hologram {
+  position: relative;
+  background: linear-gradient(100deg, #b00, #8d0000),
+    linear-gradient(100deg, #8aaebb, #89adba);
+}
+
+.hologram::before
+ {
+  z-index: 0;
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background-image: url(https://assets.airtel.in/static-assets/new-home/img/white-pattern.svg);
+  background-size: cover;
+  background-position: 50%;
+  transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+}
+.pta_wrapper, .up_wrapper  {
+  display: flex;
+  justify-content: space-between;
+}
+
+.pta_wrapper .left_side
+ {
+  z-index: 1000000;
+}
+.pta_wrapper .left_side .image {
+  overflow: hidden;
+  z-index: 100;
+  padding: 25px;
+  background: #fff;
+}
+.pta_wrapper .left_side .image img {
+  border: 1px solid var(--primary-cl);
+}
+
+.pta_wrapper .right_side,
+.up_wrapper .left_side {
+  color: #fff;
+  display: flex;
+  align-items: center;
+}
+
+.pta_wrapper .right_side .inner_box 
+.up_wrapper .left_side .inner_box {
+  height: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.pta_wrapper .title_border, 
+.up_wrapper .title_border {
+  background: #fff;
+}
+
+.descrption
+ {
+  font-size: 3em;
+  margin: 50px 0 30px 0;
+}
+
+.app_btn_white{
+  margin-top: 10px;
+  font-size: 1.2em;
+  background: #fff;
+  font-weight: 500;
+  width: fit-content;
+  padding: 15px 20px;
+  color: var(--primary-cl);
+}
+
+/* port to aritel section Ends  */
+
+/* Xstream section starts------ */
+
+
+.xstream .main_wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.xstream .main_wrapper .title_image{   
+width: 12%;
+}
+
+.xstream .main_wrapper h3{
+  margin: 15px 0;
+    font-size: 3.2em;
+}
+
+.xstream .main_wrapper .main_image{
+    width:70%;
+}
+.xstream_boxes{
+  padding-bottom: 100px;
+}
+
+.xstream_box_wrapper{
+
+  margin-top: -160px;
+
+}
+.xstream .all_wrapper{
+box-shadow: 0px 16px 13px -9px #ddd;
+}
+.xstream_item .inner_box{
+  padding: 15px;
+  z-index: 1000;
+  box-shadow: 0 2px 10px 0 rgb(0 0 0 / 10%);
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.xstream_item .inner_box p{
+  font-size: 1.8em;
+}
+.xstream_item .inner_box img{
+  margin-bottom: 15px ;
+  width: 60%;
+}
+.xstream_item .inner_box a{
+  padding: 5px 0;
+  font-size: 1.5em;
+  width: 100%;
+}
+
+/* Xstream section ends------ */
+
+
+/* airtel unlimite prepaid------- */
+
+.unlimited_prepaid::before{
+  background-position: unset;
+  transform: none;
+  -webkit-transform: none;
+  -moz-transform: none;
+  -ms-transform: none;
+  -o-transform: none;
+}
+.up_wrapper .left_side .inner_box{
+  padding: 50px 0;
+}
+.up_wrapper .left_side .inner_box .descrption{
+  font-size: 3em;
+  margin-top: 60px;
+}
+.up_wrapper .left_side .inner_box p{
+  font-size: 1.7em;
+  margin-bottom: 30px;
+}
+.up_wrapper .right_side{
+  display: flex;
+ align-items: flex-end;
+}
+.up_wrapper .right_side{
+  z-index: 1000000;
+}
+
+.up_wrapper .right_side .image{
+  width: 100%;
+
+}
+
+
+
+/* wynk music section start--- */
+.wynk{
+  background:linear-gradient(105deg,#e9e2d0,#e9e2d0 99%) ;
+}
+.wynk_wrapper{
+  display: flex;
+  justify-content: space-between;
+  margin: 100px 0;
+}
+.wynk_wrapper .inner_box{
+  margin-left: 50px;
+}
+
+
+/* wynk music section Ends--- */
+
+/* Airtel thanks section starts */
+
+.airtel_thanks .at_wrapper{
+z-index: 10000000;
+display: flex;
+justify-content: space-between;
+
+}
+ .left_side, .right_side{
+  z-index: 100000;
+}
+.at_wrapper .right_side{
+  z-index: 1000000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+.at_wrapper .right_side .experience{
+  font-size: 1.8em;
+}
+.app_src p{
+  font-size: 1.5em;
+}
+.app_src .app_link_box{
+  width:70% ;
+  display: flex;
+  justify-content: space-between;
+}
+.app_link_box a{
+  cursor: pointer;
+  min-width: 50%;
+}
+
+/* Airtel thanks section ends */
+
+/* Footer section starts */
+
+
+
+.ft_heading{
+font-size: 1.3em;
+font-weight: 600;
+}
+.ft_item_wrapper{
+  padding: 0;
+}
+.ft_item_wrapper li{
+  font-size: .9em;
+  cursor: pointer;
+  padding: 6px 0;
+}.ft_item_wrapper li a:hover{
+color: inherit;
+}
+.ft_item_wrapper li:hover a{
+  color: var(--primary-cl);
+}
+
+.social_media .inner_box{
+  height: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.back_to_top_btn{
+  color: var(--primary-cl);
+  font-size: 1.7em;
+  font-weight: 800;
+}
+.back_to_top_btn:hover{
+color:var(--primary-cl);
+}
+.social_icon_wrapper{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.social_icon_wrapper a{
+  font-size: 2.5em;
+  transition: all .3s;
+  -webkit-transition: all .3s;
+  -moz-transition: all .3s;
+  -ms-transition: all .3s;
+  -o-transition: all .3s;
+}
+.social_icon_wrapper a:hover {
+  color: var(--primary-cl);
+}
+
+/* Footer section Ends */
+
